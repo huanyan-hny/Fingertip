@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		050F35C21E457AF6009D31BB /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050F35C11E457AF6009D31BB /* Extensions.swift */; };
+		050F35C61E45AAED009D31BB /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050F35C51E45AAED009D31BB /* LoginViewController.swift */; };
+		050F35C81E45F1F5009D31BB /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050F35C71E45F1F5009D31BB /* ResultViewController.swift */; };
+		052D57DD1E4536720075A6DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052D57DC1E4536720075A6DD /* AppDelegate.swift */; };
+		052D57DF1E4536720075A6DD /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052D57DE1E4536720075A6DD /* GameViewController.swift */; };
+		052D57E21E4536720075A6DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 052D57E01E4536720075A6DD /* Main.storyboard */; };
+		052D57E51E4536720075A6DD /* DrawAndGuess.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 052D57E31E4536720075A6DD /* DrawAndGuess.xcdatamodeld */; };
+		052D57E71E4536720075A6DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 052D57E61E4536720075A6DD /* Assets.xcassets */; };
+		052D57EA1E4536720075A6DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 052D57E81E4536720075A6DD /* LaunchScreen.storyboard */; };
+		052D57F21E454E910075A6DD /* SocketIOManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052D57F11E454E910075A6DD /* SocketIOManager.swift */; };
+		E700597A25F8D8709C6CB2F2 /* Pods_DrawAndGuess.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17FA28D27F9B867D136099B6 /* Pods_DrawAndGuess.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0424EFD9628F759422D24A4D /* Pods-DrawAndGuess.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DrawAndGuess.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DrawAndGuess/Pods-DrawAndGuess.debug.xcconfig"; sourceTree = "<group>"; };
+		050F35C11E457AF6009D31BB /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		050F35C51E45AAED009D31BB /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		050F35C71E45F1F5009D31BB /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		052D57D91E4536720075A6DD /* DrawAndGuess.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrawAndGuess.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		052D57DC1E4536720075A6DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		052D57DE1E4536720075A6DD /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		052D57E11E4536720075A6DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		052D57E41E4536720075A6DD /* DrawAndGuess.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DrawAndGuess.xcdatamodel; sourceTree = "<group>"; };
+		052D57E61E4536720075A6DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		052D57E91E4536720075A6DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		052D57EB1E4536720075A6DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		052D57F11E454E910075A6DD /* SocketIOManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketIOManager.swift; sourceTree = "<group>"; };
+		17FA28D27F9B867D136099B6 /* Pods_DrawAndGuess.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DrawAndGuess.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFF7AD22834993DE8FBED277 /* Pods-DrawAndGuess.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DrawAndGuess.release.xcconfig"; path = "Pods/Target Support Files/Pods-DrawAndGuess/Pods-DrawAndGuess.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		052D57D61E4536720075A6DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E700597A25F8D8709C6CB2F2 /* Pods_DrawAndGuess.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		052D57D01E4536720075A6DD = {
+			isa = PBXGroup;
+			children = (
+				052D57DB1E4536720075A6DD /* DrawAndGuess */,
+				052D57DA1E4536720075A6DD /* Products */,
+				EDAB763BB93336A4BB4688FA /* Pods */,
+				7F291EE89ECD6ADCF6ADD224 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		052D57DA1E4536720075A6DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				052D57D91E4536720075A6DD /* DrawAndGuess.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		052D57DB1E4536720075A6DD /* DrawAndGuess */ = {
+			isa = PBXGroup;
+			children = (
+				052D57DC1E4536720075A6DD /* AppDelegate.swift */,
+				050F35C51E45AAED009D31BB /* LoginViewController.swift */,
+				052D57DE1E4536720075A6DD /* GameViewController.swift */,
+				050F35C71E45F1F5009D31BB /* ResultViewController.swift */,
+				052D57F11E454E910075A6DD /* SocketIOManager.swift */,
+				050F35C11E457AF6009D31BB /* Extensions.swift */,
+				052D57E01E4536720075A6DD /* Main.storyboard */,
+				052D57E61E4536720075A6DD /* Assets.xcassets */,
+				052D57E81E4536720075A6DD /* LaunchScreen.storyboard */,
+				052D57EB1E4536720075A6DD /* Info.plist */,
+				052D57E31E4536720075A6DD /* DrawAndGuess.xcdatamodeld */,
+			);
+			path = DrawAndGuess;
+			sourceTree = "<group>";
+		};
+		7F291EE89ECD6ADCF6ADD224 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				17FA28D27F9B867D136099B6 /* Pods_DrawAndGuess.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EDAB763BB93336A4BB4688FA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0424EFD9628F759422D24A4D /* Pods-DrawAndGuess.debug.xcconfig */,
+				CFF7AD22834993DE8FBED277 /* Pods-DrawAndGuess.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		052D57D81E4536720075A6DD /* DrawAndGuess */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 052D57EE1E4536720075A6DD /* Build configuration list for PBXNativeTarget "DrawAndGuess" */;
+			buildPhases = (
+				528884E77094DA31ECAB5EF2 /* [CP] Check Pods Manifest.lock */,
+				052D57D51E4536720075A6DD /* Sources */,
+				052D57D61E4536720075A6DD /* Frameworks */,
+				052D57D71E4536720075A6DD /* Resources */,
+				436A03977F1A38E2013197FA /* [CP] Embed Pods Frameworks */,
+				9A97A733E1DC3AB904061E49 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DrawAndGuess;
+			productName = DrawAndGuess;
+			productReference = 052D57D91E4536720075A6DD /* DrawAndGuess.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		052D57D11E4536720075A6DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Huanyan's";
+				TargetAttributes = {
+					052D57D81E4536720075A6DD = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 8V73BHVJKK;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 052D57D41E4536720075A6DD /* Build configuration list for PBXProject "DrawAndGuess" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 052D57D01E4536720075A6DD;
+			productRefGroup = 052D57DA1E4536720075A6DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				052D57D81E4536720075A6DD /* DrawAndGuess */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		052D57D71E4536720075A6DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				052D57EA1E4536720075A6DD /* LaunchScreen.storyboard in Resources */,
+				052D57E71E4536720075A6DD /* Assets.xcassets in Resources */,
+				052D57E21E4536720075A6DD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		436A03977F1A38E2013197FA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DrawAndGuess/Pods-DrawAndGuess-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		528884E77094DA31ECAB5EF2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9A97A733E1DC3AB904061E49 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DrawAndGuess/Pods-DrawAndGuess-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		052D57D51E4536720075A6DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				050F35C61E45AAED009D31BB /* LoginViewController.swift in Sources */,
+				050F35C21E457AF6009D31BB /* Extensions.swift in Sources */,
+				050F35C81E45F1F5009D31BB /* ResultViewController.swift in Sources */,
+				052D57F21E454E910075A6DD /* SocketIOManager.swift in Sources */,
+				052D57DF1E4536720075A6DD /* GameViewController.swift in Sources */,
+				052D57DD1E4536720075A6DD /* AppDelegate.swift in Sources */,
+				052D57E51E4536720075A6DD /* DrawAndGuess.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		052D57E01E4536720075A6DD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				052D57E11E4536720075A6DD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		052D57E81E4536720075A6DD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				052D57E91E4536720075A6DD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		052D57EC1E4536720075A6DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		052D57ED1E4536720075A6DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		052D57EF1E4536720075A6DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0424EFD9628F759422D24A4D /* Pods-DrawAndGuess.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8V73BHVJKK;
+				INFOPLIST_FILE = DrawAndGuess/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Huanyan.DrawAndGuess;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		052D57F01E4536720075A6DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFF7AD22834993DE8FBED277 /* Pods-DrawAndGuess.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8V73BHVJKK;
+				INFOPLIST_FILE = DrawAndGuess/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Huanyan.DrawAndGuess;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		052D57D41E4536720075A6DD /* Build configuration list for PBXProject "DrawAndGuess" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				052D57EC1E4536720075A6DD /* Debug */,
+				052D57ED1E4536720075A6DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		052D57EE1E4536720075A6DD /* Build configuration list for PBXNativeTarget "DrawAndGuess" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				052D57EF1E4536720075A6DD /* Debug */,
+				052D57F01E4536720075A6DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		052D57E31E4536720075A6DD /* DrawAndGuess.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				052D57E41E4536720075A6DD /* DrawAndGuess.xcdatamodel */,
+			);
+			currentVersion = 052D57E41E4536720075A6DD /* DrawAndGuess.xcdatamodel */;
+			path = DrawAndGuess.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 052D57D11E4536720075A6DD /* Project object */;
+}

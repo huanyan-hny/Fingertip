@@ -1,0 +1,6 @@
+framework module Pods_DrawAndGuess {
+  umbrella header "Pods-DrawAndGuess-umbrella.h"
+
+  export *
+  module * { export * }
+}
